@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1610816878 source:/home/mevlutt/c-calisma/lal/test.cpp
+	<iostream>
+	"lal.h"
+
+1610816776 /home/mevlutt/c-calisma/lal/lal.h
+
+1610817205 source:/home/mevlutt/c-calisma/lal/lal.cpp
+	<iostream>
+	"lal.h"
+	"math.h"
+

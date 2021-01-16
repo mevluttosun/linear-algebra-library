@@ -1,4 +1,3 @@
-#ifndef LAL_H
 #define LAL_H
 
 class Matrix{
@@ -10,14 +9,15 @@ private:
 public:
 	Matrix(double *,int,int);
 	~Matrix();
-	void print(void);
+	void print();
 
 };
 class Vector:public Matrix{
+	double l2Norm;
 public:
 	Vector(double *,int);
 	~Vector();
-	void print(void);
-	double l2Norm();
+	//void print(void);
+
 };
 
